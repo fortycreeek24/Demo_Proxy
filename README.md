@@ -16,5 +16,6 @@
 - If nothing shows up it is most likely you are not sending the bundle.js correctly 
 
 
+## Rules of the Repo
 - Will not accept pull request if component does not work on you're end
 - Do not modify any components here, Tell the respecting person about ideas on there component or any conflicts that occur with that persons component 
