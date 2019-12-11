@@ -31,20 +31,23 @@ class Description extends React.Component {
 
         render() {
             return (
-        <div>
-            <div>
-            <div> 
-                {this.state.data.map((productDescription, index) => {
+        
+            <div className="wrap-collapsible">
+                <input id="collapsible" className="toggle" type="checkbox"/>
+                <label htmlFor="collapsible" className="lbl-toggle">Description</label>   
+            <div className="collapsible-content"> 
+                {this.state.data.map((el, index) => {
                     return(
-                        <div key={index}> 
-                        <p key={index}>
+                        <div className="content-inner" key={index}> 
+                        <p>
+                        {el.info} 
                         </p>
-                        {productDescription.info} </div>
+                        </div>
                     )
                 })}
             </div>
             </div>
-        </div>
+        
         )
     };
     
