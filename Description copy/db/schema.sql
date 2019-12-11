@@ -1,3 +1,5 @@
+DROP DATABASE IF EXISTS productinfo;
+
 CREATE DATABASE productinfo;
 
 USE productinfo;
