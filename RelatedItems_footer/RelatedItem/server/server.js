@@ -3,7 +3,7 @@ const axios = require('axios');
 const path = require('path')
 const bodyParser = require('body-parser');
 const cors = require('cors');
-var connection = require('./config');
+const connection = require('./config');
 
 const app = express();
 
@@ -30,3 +30,4 @@ app.get('/getItems', (req, res) => {
 });
 
 app.listen(port, () => console.log(`Example app listening on port ${port}!`));
+   

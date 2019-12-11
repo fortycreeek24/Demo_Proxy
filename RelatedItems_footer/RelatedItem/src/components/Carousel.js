@@ -38,7 +38,7 @@ class Carousle extends React.Component {
                     return (
                         <div>
                             <img id="size" src={value.img}/>
-                            <Link to='/test'> {value.item}</Link>
+                            <Link to='/product'> {value.item}</Link>
                         </div>
                     )
                 })}
